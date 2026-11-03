@@ -1,13 +1,15 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": "0.1",
-  "note": "Fontes públicas institucionais listadas; reprodução e permissões de incorporação ainda precisam ser verificadas.",
+  "catalogVersion": "0.2",
+  "purpose": "Catálogo experimental para teste manual no VLC. Não publicar como oferta comercial sem autorizações.",
   "channels": [
     {
-      "id": "canal-gov",
+      "id": "CanalGov.br",
       "name": "Canal Gov",
-      "category": "Notícias e informação",
+      "category": "Notícias",
       "status": "pendente_de_teste",
+      "rights": "nao_verificados",
+      "sourceNote": "institucional",
       "sources": [
         {
           "url": "https://canalgov-stream.ebc.com.br/index.m3u8",
@@ -16,10 +18,12 @@
       ]
     },
     {
-      "id": "tv-brasil",
+      "id": "TVBrasil.br",
       "name": "TV Brasil",
-      "category": "Notícias e informação",
+      "category": "Notícias",
       "status": "pendente_de_teste",
+      "rights": "nao_verificados",
+      "sourceNote": "institucional",
       "sources": [
         {
           "url": "https://tvbrasil-stream.ebc.com.br/index.m3u8",
@@ -28,10 +32,12 @@
       ]
     },
     {
-      "id": "tv-camara",
+      "id": "TVCamara.br",
       "name": "TV Câmara",
-      "category": "Notícias e informação",
-      "status": "pendente_de_teste",
+      "category": "Notícias",
+      "status": "confirmado_pelo_usuario_vlc",
+      "rights": "nao_verificados",
+      "sourceNote": "confirmado_pelo_usuario_vlc",
       "sources": [
         {
           "url": "https://stream3.camara.gov.br/tv1/manifest.m3u8",
@@ -40,54 +46,122 @@
       ]
     },
     {
-      "id": "canal-libras",
+      "id": "CanalLibras.br",
       "name": "Canal Libras",
-      "category": "Notícias e informação",
+      "category": "Cultura e informação",
       "status": "pendente_de_teste",
+      "rights": "nao_verificados",
+      "sourceNote": "institucional",
       "sources": [
         {
           "url": "https://canallibras-stream.ebc.com.br/mux_video_ts/index-1.m3u8",
           "type": "hls"
         }
       ]
+    },
+    {
+      "id": "RecordNews.br",
+      "name": "Record News [TESTE]",
+      "category": "Notícias",
+      "status": "pendente_de_teste",
+      "rights": "nao_verificados",
+      "sourceNote": "terceiro_permissao_pendente",
+      "sources": [
+        {
+          "url": "https://rnw-rn.otteravision.com/rnw/rn/rnw_rn.m3u8",
+          "type": "hls"
+        }
+      ]
+    },
+    {
+      "id": "SBTNews.br",
+      "name": "SBT News [TESTE]",
+      "category": "Notícias",
+      "status": "pendente_de_teste",
+      "rights": "nao_verificados",
+      "sourceNote": "distribuidor_permissao_pendente",
+      "sources": [
+        {
+          "url": "https://dai.google.com/linear/hls/event/1XSOdtQ0SH2G8OEmEfGgjQ/master.m3u8",
+          "type": "hls"
+        }
+      ]
+    },
+    {
+      "id": "RecordTVRio.br",
+      "name": "Record Rio [TESTE - restrição regional]",
+      "category": "Rio de Janeiro",
+      "status": "pendente_de_teste",
+      "rights": "nao_verificados",
+      "sourceNote": "geobloqueado_permissao_pendente",
+      "sources": [
+        {
+          "url": "https://playplusrjo-lh.akamaihd.net/i/pp_rj@377859/index_720_av-p.m3u8",
+          "type": "hls"
+        }
+      ]
+    },
+    {
+      "id": "TVCultura.br",
+      "name": "TV Cultura [TESTE]",
+      "category": "Cultura e documentários",
+      "status": "pendente_de_teste",
+      "rights": "nao_verificados",
+      "sourceNote": "permissao_pendente",
+      "sources": [
+        {
+          "url": "https://player-tvcultura.stream.uol.com.br/live/tvcultura.m3u8",
+          "type": "hls"
+        }
+      ]
+    },
+    {
+      "id": "SESCTV.br",
+      "name": "Sesc TV [TESTE]",
+      "category": "Cultura e documentários",
+      "status": "pendente_de_teste",
+      "rights": "nao_verificados",
+      "sourceNote": "permissao_pendente",
+      "sources": [
+        {
+          "url": "https://slbps-ml-sambatech.akamaized.net/samba-live/2472/7424/8a00fe7cc36ac263b2c3e9324497d5ff/video/93a9920d-1b24-4c5e-a7d2-63d5489f59b5_index.m3u8",
+          "type": "hls"
+        }
+      ]
+    },
+    {
+      "id": "TVCRio.br",
+      "name": "TVC Rio [TESTE]",
+      "category": "Rio de Janeiro",
+      "status": "pendente_de_teste",
+      "rights": "nao_verificados",
+      "sourceNote": "permissao_pendente",
+      "sources": [
+        {
+          "url": "https://video05.logicahost.com.br/comunitariario/comunitariario/playlist.m3u8",
+          "type": "hls"
+        }
+      ]
+    },
+    {
+      "id": "CINDIETV.br",
+      "name": "CINDIE TV [TESTE]",
+      "category": "Filmes",
+      "status": "pendente_de_teste",
+      "rights": "nao_verificados",
+      "sourceNote": "permissao_pendente",
+      "sources": [
+        {
+          "url": "https://cc-hqw8u5r1nshjc.akamaized.net/scheduler/scheduleMaster/352.m3u8",
+          "type": "hls"
+        }
+      ]
     }
   ],
-  "researchQueue": [
-    {
-      "name": "Globo Rio",
-      "status": "sem_fonte_de_integracao_confirmada"
-    },
-    {
-      "name": "Record Rio",
-      "status": "sem_fonte_de_integracao_confirmada"
-    },
-    {
-      "name": "SBT Rio",
-      "status": "sem_fonte_de_integracao_confirmada"
-    },
-    {
-      "name": "GloboNews",
-      "status": "sem_fonte_de_integracao_confirmada"
-    },
-    {
-      "name": "Record News",
-      "status": "sem_fonte_de_integracao_confirmada"
-    },
-    {
-      "name": "SBT News",
-      "status": "sem_fonte_de_integracao_confirmada"
-    },
-    {
-      "name": "BandNews TV",
-      "status": "sem_fonte_de_integracao_confirmada"
-    },
-    {
-      "name": "Rio TV Câmara",
-      "status": "sem_fonte_de_integracao_confirmada"
-    },
-    {
-      "name": "TV ALERJ",
-      "status": "sem_fonte_de_integracao_confirmada"
-    }
+  "requestedWithoutVerifiedDirectSource": [
+    "TV Globo Rio",
+    "SBT Rio",
+    "BandNews TV",
+    "GloboNews (preservar playlist atual)"
   ]
 }
