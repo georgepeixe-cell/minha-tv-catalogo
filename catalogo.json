@@ -1,0 +1,93 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": "0.1",
+  "note": "Fontes públicas institucionais listadas; reprodução e permissões de incorporação ainda precisam ser verificadas.",
+  "channels": [
+    {
+      "id": "canal-gov",
+      "name": "Canal Gov",
+      "category": "Notícias e informação",
+      "status": "pendente_de_teste",
+      "sources": [
+        {
+          "url": "https://canalgov-stream.ebc.com.br/index.m3u8",
+          "type": "hls"
+        }
+      ]
+    },
+    {
+      "id": "tv-brasil",
+      "name": "TV Brasil",
+      "category": "Notícias e informação",
+      "status": "pendente_de_teste",
+      "sources": [
+        {
+          "url": "https://tvbrasil-stream.ebc.com.br/index.m3u8",
+          "type": "hls"
+        }
+      ]
+    },
+    {
+      "id": "tv-camara",
+      "name": "TV Câmara",
+      "category": "Notícias e informação",
+      "status": "pendente_de_teste",
+      "sources": [
+        {
+          "url": "https://stream3.camara.gov.br/tv1/manifest.m3u8",
+          "type": "hls"
+        }
+      ]
+    },
+    {
+      "id": "canal-libras",
+      "name": "Canal Libras",
+      "category": "Notícias e informação",
+      "status": "pendente_de_teste",
+      "sources": [
+        {
+          "url": "https://canallibras-stream.ebc.com.br/mux_video_ts/index-1.m3u8",
+          "type": "hls"
+        }
+      ]
+    }
+  ],
+  "researchQueue": [
+    {
+      "name": "Globo Rio",
+      "status": "sem_fonte_de_integracao_confirmada"
+    },
+    {
+      "name": "Record Rio",
+      "status": "sem_fonte_de_integracao_confirmada"
+    },
+    {
+      "name": "SBT Rio",
+      "status": "sem_fonte_de_integracao_confirmada"
+    },
+    {
+      "name": "GloboNews",
+      "status": "sem_fonte_de_integracao_confirmada"
+    },
+    {
+      "name": "Record News",
+      "status": "sem_fonte_de_integracao_confirmada"
+    },
+    {
+      "name": "SBT News",
+      "status": "sem_fonte_de_integracao_confirmada"
+    },
+    {
+      "name": "BandNews TV",
+      "status": "sem_fonte_de_integracao_confirmada"
+    },
+    {
+      "name": "Rio TV Câmara",
+      "status": "sem_fonte_de_integracao_confirmada"
+    },
+    {
+      "name": "TV ALERJ",
+      "status": "sem_fonte_de_integracao_confirmada"
+    }
+  ]
+}

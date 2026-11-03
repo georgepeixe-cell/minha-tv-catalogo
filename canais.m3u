@@ -1,0 +1,9 @@
+#EXTM3U
+#EXTINF:-1 tvg-id="CanalGov.br" group-title="Notícias e informação",Canal Gov
+https://canalgov-stream.ebc.com.br/index.m3u8
+#EXTINF:-1 tvg-id="TVBrasil.br" group-title="Notícias e informação",TV Brasil
+https://tvbrasil-stream.ebc.com.br/index.m3u8
+#EXTINF:-1 tvg-id="TVCamara.br" group-title="Notícias e informação",TV Câmara
+https://stream3.camara.gov.br/tv1/manifest.m3u8
+#EXTINF:-1 tvg-id="CanalLibras.br" group-title="Notícias e informação",Canal Libras
+https://canallibras-stream.ebc.com.br/mux_video_ts/index-1.m3u8
