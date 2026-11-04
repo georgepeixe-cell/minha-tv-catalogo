@@ -1,0 +1,25 @@
+{
+  "versao": "0.1",
+  "tipo": "catalogo_de_filmes",
+  "status": "experimental_nao_validado_no_VLC",
+  "filmes": [
+    {
+      "id": "sintel-2010",
+      "titulo": "Sintel",
+      "ano": 2010,
+      "tipo": "curta-metragem",
+      "generos": [
+        "Animação",
+        "Fantasia"
+      ],
+      "audio": "original",
+      "legendas_pt": "não incluídas neste teste",
+      "sinopse": "Uma jovem procura um dragão que conheceu em sua jornada.",
+      "url_video": "https://video.blender.org/static/webseed/0eb052d0-fd51-43e6-aa33-ecdbf77a5d40-720.mp4",
+      "fonte": "Blender Foundation / video.blender.org",
+      "licenca": "CC BY 3.0; preservar créditos e atribuição",
+      "url_licenca": "https://durian.blender.org/",
+      "status": "teste_pendente"
+    }
+  ]
+}
