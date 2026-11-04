@@ -1,25 +1,36 @@
 {
-  "versao": "0.1",
-  "tipo": "catalogo_de_filmes",
-  "status": "experimental_nao_validado_no_VLC",
+  "versao": "0.2",
+  "tipo": "catalogo_de_filmes_experimental",
+  "atualizado_em": "2026-11-04",
+  "observacao": "Fontes oficiais candidatas. Disponibilidade de vídeo não verificada externamente.",
   "filmes": [
     {
-      "id": "sintel-2010",
+      "id": "big-buck-bunny",
+      "titulo": "Big Buck Bunny",
+      "ano": 2008,
+      "genero": "Animação / Comédia",
+      "duracao_aprox_min": 10,
+      "audio": "Sem diálogos",
+      "sinopse": "Um coelho enfrenta pequenos animais que o provocam.",
+      "url": "https://download.blender.org/demo/movies/BBB/bbb_sunflower_1080p_30fps_normal.mp4",
+      "origem": "Blender Foundation",
+      "licenca": "CC BY 3.0",
+      "pagina_oficial": "https://peach.blender.org/",
+      "status": "PENDENTE_TESTE_VLC"
+    },
+    {
+      "id": "sintel",
       "titulo": "Sintel",
       "ano": 2010,
-      "tipo": "curta-metragem",
-      "generos": [
-        "Animação",
-        "Fantasia"
-      ],
-      "audio": "original",
-      "legendas_pt": "não incluídas neste teste",
-      "sinopse": "Uma jovem procura um dragão que conheceu em sua jornada.",
-      "url_video": "https://video.blender.org/static/webseed/0eb052d0-fd51-43e6-aa33-ecdbf77a5d40-720.mp4",
-      "fonte": "Blender Foundation / video.blender.org",
-      "licenca": "CC BY 3.0; preservar créditos e atribuição",
-      "url_licenca": "https://durian.blender.org/",
-      "status": "teste_pendente"
+      "genero": "Animação / Fantasia",
+      "duracao_aprox_min": 15,
+      "audio": "Original; legendas em português disponíveis separadamente na página oficial",
+      "sinopse": "Uma jovem procura o dragão de quem foi separada.",
+      "url": "https://download.blender.org/durian/movies/sintel-1024-surround.mp4",
+      "origem": "Blender Foundation",
+      "licenca": "CC BY 3.0",
+      "pagina_oficial": "https://durian.blender.org/download/",
+      "status": "PENDENTE_TESTE_VLC"
     }
   ]
 }

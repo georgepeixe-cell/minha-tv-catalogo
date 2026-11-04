@@ -1,3 +1,5 @@
 #EXTM3U
-#EXTINF:-1 group-title="Animação | Teste" tvg-id="sintel-2010",Sintel (2010) - Curta completo [TESTE]
-https://video.blender.org/static/webseed/0eb052d0-fd51-43e6-aa33-ecdbf77a5d40-720.mp4
+#EXTINF:-1 group-title="Filmes - teste" tvg-id="big-buck-bunny",Big Buck Bunny [PENDENTE_TESTE_VLC]
+https://download.blender.org/demo/movies/BBB/bbb_sunflower_1080p_30fps_normal.mp4
+#EXTINF:-1 group-title="Filmes - teste" tvg-id="sintel",Sintel [PENDENTE_TESTE_VLC]
+https://download.blender.org/durian/movies/sintel-1024-surround.mp4
