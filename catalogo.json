@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": "0.2",
-  "purpose": "Catálogo experimental para teste manual no VLC. Não publicar como oferta comercial sem autorizações.",
+  "catalogVersion": "0.3",
+  "purpose": "Teste manual no VLC. Preserva 11 canais da versão 0.2; adiciona 3 candidatos. Sem confirmação de reprodução ou licença de redistribuição.",
   "channels": [
     {
       "id": "CanalGov.br",
@@ -153,6 +153,48 @@
       "sources": [
         {
           "url": "https://cc-hqw8u5r1nshjc.akamaized.net/scheduler/scheduleMaster/352.m3u8",
+          "type": "hls"
+        }
+      ]
+    },
+    {
+      "id": "SBTNacional.br",
+      "name": "SBT Nacional [TESTE - nao e SBT Rio]",
+      "category": "TV aberta",
+      "status": "pendente_de_teste",
+      "rights": "nao_verificados",
+      "sourceNote": "Lista pública iptv-org; não é SBT Rio.",
+      "sources": [
+        {
+          "url": "https://media.cdntvms.com.br/sbt_sat/index.m3u8",
+          "type": "hls"
+        }
+      ]
+    },
+    {
+      "id": "geFast.br",
+      "name": "ge Fast [TESTE]",
+      "category": "Esportes",
+      "status": "pendente_de_teste",
+      "rights": "nao_verificados",
+      "sourceNote": "Canal FAST; não equivale a SporTV.",
+      "sources": [
+        {
+          "url": "https://dfr80qz435crc.cloudfront.net/EFGH/Amagi/Globo/GE_Fast_BR/GE_Fast.m3u8",
+          "type": "hls"
+        }
+      ]
+    },
+    {
+      "id": "TVZoom.br",
+      "name": "TV Zoom [TESTE - RJ]",
+      "category": "Rio de Janeiro",
+      "status": "pendente_de_teste",
+      "rights": "nao_verificados",
+      "sourceNote": "Canal regional listado publicamente; origem/licença a verificar.",
+      "sources": [
+        {
+          "url": "https://cdn.jmvstream.com/w/LVW-9730/LVW9730_LmUwslM8jt/playlist.m3u8",
           "type": "hls"
         }
       ]

@@ -1,24 +1,14 @@
-# Minha TV — Catálogo experimental 0.2 (03/11/2026)
+# Minha TV — Catálogo 0.3 (teste VLC)
 
-## Mudanças
-- Mantidos os quatro canais do catálogo 0.1.
-- Adicionados candidatos para teste: Record News, SBT News, Record Rio, TV Cultura, Sesc TV, TVC Rio e CINDIE TV.
-- Record Rio é listado na fonte como sujeito a restrição geográfica.
-- Globo Rio e SBT Rio **não foram adicionados**: nenhuma fonte direta adequada foi confirmada.
-- GloboNews já funcional na playlist antiga deve ser preservada; não foi copiada para esta.
+## Alterações
+- Mantidos os 11 canais da versão 0.2, sem modificar URLs anteriores.
+- Adicionados SBT Nacional (não é SBT Rio), ge Fast e TV Zoom (RJ). Total: 14 canais.
+- Globo Rio e SBT Rio **não** foram incluídos: nenhuma URL direta adequada confirmada.
+- Record Rio já estava na versão 0.2; pode apresentar restrição regional.
+- HBO, Telecine, TNT e Space não incluídos: não foi confirmada fonte pública licenciada.
 
-## Estado da validação
-- TV Câmara: reprodução mostrada pelo usuário no VLC.
-- Demais canais: **não testados em reprodução contínua**; a presença na lista não garante funcionamento.
-- Condições de licenciamento/incorporação **não verificadas**; uso experimental, não disponibilizar comercialmente sem autorização.
+## Procedimento
+Substitua `canais.m3u`, `catalogo.json` e `README.md` na raiz do repositório GitHub Pages. Aguarde a publicação e abra a URL do M3U no VLC (Mídia > Abrir fluxo de rede; Ctrl+L para a lista). Confira se há 14 entradas. Teste imagem e áudio individualmente; a presença na lista não comprova funcionamento.
 
-## Publicação
-1. No repositório GitHub, abra **Adicionar arquivo > Carregar arquivos**.
-2. Envie `canais.m3u` e `catalogo.json` desta versão, substituindo os antigos.
-3. Confirme as alterações e aguarde o GitHub Pages atualizar.
-4. No VLC: **Mídia > Abrir fluxo de rede**, cole a URL pública terminada em `/canais.m3u`.
-5. Teste imagem e áudio por alguns minutos; registre os resultados antes de integrar ao app.
-
-## Referências de descoberta (não equivalem a licenças)
-- https://github.com/iptv-org/iptv/blob/master/streams/br.m3u
-- https://github.com/Free-TV/IPTV/blob/master/lists/brazil.md
+## Limitações e testes
+URLs adicionais identificadas em listagem pública iptv-org (https://github.com/iptv-org/iptv/blob/master/streams/br.m3u), consultada em 04/11/2026. **Não foram validadas por reprodução no VLC**, nem verificadas permissões de redistribuição. Não integrar ao aplicativo distribuído sem checar os direitos de uso. TV Câmara reproduziu no VLC segundo captura do usuário na versão anterior.

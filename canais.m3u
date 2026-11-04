@@ -21,3 +21,9 @@ https://slbps-ml-sambatech.akamaized.net/samba-live/2472/7424/8a00fe7cc36ac263b2
 https://video05.logicahost.com.br/comunitariario/comunitariario/playlist.m3u8
 #EXTINF:-1 tvg-id="CINDIETV.br" group-title="Filmes",CINDIE TV [TESTE]
 https://cc-hqw8u5r1nshjc.akamaized.net/scheduler/scheduleMaster/352.m3u8
+#EXTINF:-1 tvg-id="SBTNacional.br" group-title="TV aberta",SBT Nacional [TESTE - nao e SBT Rio]
+https://media.cdntvms.com.br/sbt_sat/index.m3u8
+#EXTINF:-1 tvg-id="geFast.br" group-title="Esportes",ge Fast [TESTE]
+https://dfr80qz435crc.cloudfront.net/EFGH/Amagi/Globo/GE_Fast_BR/GE_Fast.m3u8
+#EXTINF:-1 tvg-id="TVZoom.br" group-title="Rio de Janeiro",TV Zoom [TESTE - RJ]
+https://cdn.jmvstream.com/w/LVW-9730/LVW9730_LmUwslM8jt/playlist.m3u8
