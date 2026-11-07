@@ -1,24 +1,27 @@
-# Minha TV — Catálogo de Filmes 0.4
+# Minha TV — Catálogo de Longas 1.0 (TESTE)
 
-## Alterações
-- Sintel (2010): fonte 1080p MKV confirmada pelo usuário no VLC.
-- Tears of Steel (2012): nova fonte 720p MOV para teste, **não confirmada**.
-- Fontes defeituosas das versões 0.1 e 0.2 não foram reutilizadas.
-- JSON contém o status individual dos filmes.
+Este pacote é **experimental**. Contém três **longas-metragens**, não trailers nem curtas. As URLs foram identificadas em uma playlist pública e **não foram verificadas por reprodução** nesta entrega.
 
-## Teste no VLC
-Abra `filmes.m3u` pelo menu Mídia > Abrir arquivo. Teste Tears of Steel por pelo menos um minuto, com imagem e áudio. Se falhar, não integre ao aplicativo.
+## Conteúdo
+- A Noite dos Mortos-Vivos (1968) — cerca de 96 minutos — terror.
+- Captain Kidd (1945) — cerca de 89 minutos — aventura.
+- The Thirteenth Chair (1929) — cerca de 72 minutos — mistério.
 
-## Publicação
-Depois do teste, substitua somente `filmes.m3u` e `catalogo-filmes.json` na raiz do GitHub. Não sobrescreva o README principal, que também documenta os canais.
+**Idioma:** fontes em áudio original; dublagem/legendas PT-BR não confirmadas. Não são apresentados como dublados.
 
-## Limitações
-A reprodução de Tears of Steel e a compatibilidade Android/Media3 não foram testadas. A existência no diretório não garante funcionamento contínuo. Verificar licença e atribuição antes da distribuição.
+## Como testar
+1. Extraia o ZIP.
+2. No VLC, escolha Mídia > Abrir arquivo e selecione `filmes.m3u`.
+3. Teste início, áudio e avanço para a metade de cada filme. Registre se travar ou falhar.
+4. **Não substitua o catálogo publicado no GitHub ainda.** O arquivo local serve para seleção e validação.
+
+## Licenciamento
+O status de domínio público ou licença de cada cópia deve ser analisado para distribuição no Brasil. Disponibilidade pública no Internet Archive não equivale a autorização automática para uso em aplicativo.
 
 ## Fontes
-- https://download.blender.org/demo/movies/
-- https://download.blender.org/demo/movies/ToS/
-- https://studio.blender.org/films/
+- https://github.com/OnlineM3U/publicdomainm3u/blob/main/movies.m3u
+- https://www.library.cmu.edu/about/news/2018-10-all-ghouls-day-screening-carnival-souls-night-living-dead
+- https://archivesupport.zendesk.com/hc/en-us/articles/360017808151-Movies-and-Videos-A-Basic-Guide
 
 ## Histórico
-0.1 e 0.2: fontes falharam. 0.3: Sintel validado no VLC. 0.4: Tears of Steel adicionado para teste.
+- 1.0 teste: primeiro conjunto exclusivamente de longas, aguardando validação no VLC.

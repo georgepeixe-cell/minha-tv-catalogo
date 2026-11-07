@@ -1,5 +1,7 @@
 #EXTM3U
-#EXTINF:-1 group-title="Filmes | Animação",Sintel (2010) [1080p] - CONFIRMADO VLC
-https://download.blender.org/demo/movies/Sintel.2010.1080p.mkv
-#EXTINF:-1 group-title="Filmes | Ficção científica",Tears of Steel (2012) [720p] - TESTE
-https://download.blender.org/demo/movies/ToS/tears_of_steel_720p.mov
+#EXTINF:5753 group-title="Longas | Terror" tvg-logo="https://archive.org/download/night-of-the-living-dead-movie-poster/NOTLD2x1200.jpg",A Noite dos Mortos-Vivos (1968) - TESTE - audio original
+https://archive.org/download/Night.Of.The.Living.Dead_1080p/NightOfTheLivingDead.mp4
+#EXTINF:5320 group-title="Longas | Aventura",Captain Kidd (1945) - TESTE - audio original
+https://archive.org/download/captain-kidd-1945_202609/CaptainKidd_512kb.mp4
+#EXTINF:4343 group-title="Longas | Misterio",The Thirteenth Chair (1929) - TESTE - audio original
+https://archive.org/download/the-thirteenth-chair_1929/the-thirteenth-chair_1929.mp4

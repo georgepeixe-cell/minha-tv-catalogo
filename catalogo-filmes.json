@@ -1,38 +1,43 @@
 {
-  "nome": "Minha TV — Filmes",
-  "versao": "0.4",
+  "nome": "Minha TV — Longas-metragens",
+  "versao": "1.0-teste",
+  "aviso": "URLs candidatas encontradas em catálogo público; não testadas em VLC. Licenciamento e direitos no Brasil pendentes de avaliação.",
   "filmes": [
     {
-      "id": "sintel-2010",
-      "titulo": "Sintel",
-      "ano": 2010,
-      "generos": [
-        "Animação",
-        "Fantasia"
-      ],
-      "url": "https://download.blender.org/demo/movies/Sintel.2010.1080p.mkv",
-      "formato": "MKV",
-      "qualidade": "1080p",
-      "status": "confirmado_no_vlc_pelo_usuario",
-      "observacao": "Reprodução fluida após estabilização da conexão; Android não testado.",
-      "licenca": "CC BY 3.0",
-      "creditos": "Blender Foundation"
+      "id": "noite-mortos-vivos-1968",
+      "titulo": "A Noite dos Mortos-Vivos",
+      "ano": 1968,
+      "duracao_segundos": 5753,
+      "genero": "Terror",
+      "url_video": "https://archive.org/download/Night.Of.The.Living.Dead_1080p/NightOfTheLivingDead.mp4",
+      "idioma_audio": "original (não verificado)",
+      "legendas_pt_br": "não verificadas",
+      "status": "aguardando_teste_vlc",
+      "direitos": "verificação necessária antes de publicar no aplicativo"
     },
     {
-      "id": "tears-of-steel-2012",
-      "titulo": "Tears of Steel",
-      "ano": 2012,
-      "generos": [
-        "Ficção científica",
-        "Curta-metragem"
-      ],
-      "url": "https://download.blender.org/demo/movies/ToS/tears_of_steel_720p.mov",
-      "formato": "MOV",
-      "qualidade": "720p",
-      "status": "pendente_teste_vlc",
-      "observacao": "Arquivo listado no servidor oficial; reprodução e Android não verificados.",
-      "licenca": "Verificar condições oficiais de atribuição antes da integração pública",
-      "creditos": "Blender Foundation"
+      "id": "captain-kidd-1945",
+      "titulo": "Captain Kidd",
+      "ano": 1945,
+      "duracao_segundos": 5320,
+      "genero": "Aventura",
+      "url_video": "https://archive.org/download/captain-kidd-1945_202609/CaptainKidd_512kb.mp4",
+      "idioma_audio": "original (não verificado)",
+      "legendas_pt_br": "não verificadas",
+      "status": "aguardando_teste_vlc",
+      "direitos": "verificação necessária antes de publicar no aplicativo"
+    },
+    {
+      "id": "thirteenth-chair-1929",
+      "titulo": "The Thirteenth Chair",
+      "ano": 1929,
+      "duracao_segundos": 4343,
+      "genero": "Mistério",
+      "url_video": "https://archive.org/download/the-thirteenth-chair_1929/the-thirteenth-chair_1929.mp4",
+      "idioma_audio": "original (não verificado)",
+      "legendas_pt_br": "não verificadas",
+      "status": "aguardando_teste_vlc",
+      "direitos": "verificação necessária antes de publicar no aplicativo"
     }
   ]
 }
