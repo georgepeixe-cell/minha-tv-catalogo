@@ -1,36 +1,38 @@
 {
-  "versao": "0.2",
-  "tipo": "catalogo_de_filmes_experimental",
-  "atualizado_em": "2026-11-04",
-  "observacao": "Fontes oficiais candidatas. Disponibilidade de vídeo não verificada externamente.",
+  "nome": "Minha TV — Filmes",
+  "versao": "0.4",
   "filmes": [
     {
-      "id": "big-buck-bunny",
-      "titulo": "Big Buck Bunny",
-      "ano": 2008,
-      "genero": "Animação / Comédia",
-      "duracao_aprox_min": 10,
-      "audio": "Sem diálogos",
-      "sinopse": "Um coelho enfrenta pequenos animais que o provocam.",
-      "url": "https://download.blender.org/demo/movies/BBB/bbb_sunflower_1080p_30fps_normal.mp4",
-      "origem": "Blender Foundation",
-      "licenca": "CC BY 3.0",
-      "pagina_oficial": "https://peach.blender.org/",
-      "status": "PENDENTE_TESTE_VLC"
-    },
-    {
-      "id": "sintel",
+      "id": "sintel-2010",
       "titulo": "Sintel",
       "ano": 2010,
-      "genero": "Animação / Fantasia",
-      "duracao_aprox_min": 15,
-      "audio": "Original; legendas em português disponíveis separadamente na página oficial",
-      "sinopse": "Uma jovem procura o dragão de quem foi separada.",
-      "url": "https://download.blender.org/durian/movies/sintel-1024-surround.mp4",
-      "origem": "Blender Foundation",
+      "generos": [
+        "Animação",
+        "Fantasia"
+      ],
+      "url": "https://download.blender.org/demo/movies/Sintel.2010.1080p.mkv",
+      "formato": "MKV",
+      "qualidade": "1080p",
+      "status": "confirmado_no_vlc_pelo_usuario",
+      "observacao": "Reprodução fluida após estabilização da conexão; Android não testado.",
       "licenca": "CC BY 3.0",
-      "pagina_oficial": "https://durian.blender.org/download/",
-      "status": "PENDENTE_TESTE_VLC"
+      "creditos": "Blender Foundation"
+    },
+    {
+      "id": "tears-of-steel-2012",
+      "titulo": "Tears of Steel",
+      "ano": 2012,
+      "generos": [
+        "Ficção científica",
+        "Curta-metragem"
+      ],
+      "url": "https://download.blender.org/demo/movies/ToS/tears_of_steel_720p.mov",
+      "formato": "MOV",
+      "qualidade": "720p",
+      "status": "pendente_teste_vlc",
+      "observacao": "Arquivo listado no servidor oficial; reprodução e Android não verificados.",
+      "licenca": "Verificar condições oficiais de atribuição antes da integração pública",
+      "creditos": "Blender Foundation"
     }
   ]
 }

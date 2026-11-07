@@ -1,5 +1,5 @@
 #EXTM3U
-#EXTINF:-1 group-title="Filmes - teste" tvg-id="big-buck-bunny",Big Buck Bunny [PENDENTE_TESTE_VLC]
-https://download.blender.org/demo/movies/BBB/bbb_sunflower_1080p_30fps_normal.mp4
-#EXTINF:-1 group-title="Filmes - teste" tvg-id="sintel",Sintel [PENDENTE_TESTE_VLC]
-https://download.blender.org/durian/movies/sintel-1024-surround.mp4
+#EXTINF:-1 group-title="Filmes | Animação",Sintel (2010) [1080p] - CONFIRMADO VLC
+https://download.blender.org/demo/movies/Sintel.2010.1080p.mkv
+#EXTINF:-1 group-title="Filmes | Ficção científica",Tears of Steel (2012) [720p] - TESTE
+https://download.blender.org/demo/movies/ToS/tears_of_steel_720p.mov

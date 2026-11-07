@@ -1,27 +1,24 @@
-# Minha TV — Catálogo de Filmes 0.2 (teste VLC)
+# Minha TV — Catálogo de Filmes 0.4
 
-## Objetivo
-Substituir a URL de Sintel que falhou no VLC e testar fontes alternativas publicadas no domínio da Blender Foundation.
+## Alterações
+- Sintel (2010): fonte 1080p MKV confirmada pelo usuário no VLC.
+- Tears of Steel (2012): nova fonte 720p MOV para teste, **não confirmada**.
+- Fontes defeituosas das versões 0.1 e 0.2 não foram reutilizadas.
+- JSON contém o status individual dos filmes.
 
-## Arquivos
-- `filmes.m3u`: playlist experimental de dois filmes.
-- `catalogo-filmes.json`: metadados, créditos, licenças e status de teste.
+## Teste no VLC
+Abra `filmes.m3u` pelo menu Mídia > Abrir arquivo. Teste Tears of Steel por pelo menos um minuto, com imagem e áudio. Se falhar, não integre ao aplicativo.
 
-## Aviso importante
-As URLs são **candidatas não verificadas em reprodução**. O ambiente de geração não conseguiu acessar os arquivos de vídeo remotamente; por isso não se afirma que funcionam. Não incluir no aplicativo antes do teste manual no VLC.
+## Publicação
+Depois do teste, substitua somente `filmes.m3u` e `catalogo-filmes.json` na raiz do GitHub. Não sobrescreva o README principal, que também documenta os canais.
 
-## Como testar
-1. Extraia este ZIP e abra `filmes.m3u` localmente no VLC, sem precisar alterar o GitHub.
-2. Dê dois cliques em cada filme; aguarde até 30 segundos e confira imagem, som e progresso.
-3. Se falhar, use `Ferramentas > Mensagens` no VLC e registre o erro.
-4. Somente após aprovação substitua `filmes.m3u` e `catalogo-filmes.json` no repositório. Não sobrescreva o README principal do repositório sem mesclar a documentação de canais.
+## Limitações
+A reprodução de Tears of Steel e a compatibilidade Android/Media3 não foram testadas. A existência no diretório não garante funcionamento contínuo. Verificar licença e atribuição antes da distribuição.
 
-## Licenciamento
-Big Buck Bunny e Sintel: Blender Foundation, Creative Commons Attribution 3.0. Manter créditos originais e atribuição.
-- https://peach.blender.org/
-- https://durian.blender.org/about/
-- https://durian.blender.org/download/
+## Fontes
+- https://download.blender.org/demo/movies/
+- https://download.blender.org/demo/movies/ToS/
+- https://studio.blender.org/films/
 
 ## Histórico
-- 0.1: Sintel com URL `video.blender.org/static/webseed/...` reprovada no teste do usuário.
-- 0.2: fontes candidatas em `download.blender.org` para Big Buck Bunny e Sintel; teste VLC pendente.
+0.1 e 0.2: fontes falharam. 0.3: Sintel validado no VLC. 0.4: Tears of Steel adicionado para teste.
